@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Medii virtuale
+.venv/
+venv/
+env/
+
+# Date si modele (prea mari pentru Git)
+data/
+models/*.task
+models/*.pt
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Baza de date locala
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Teste / cache
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Loguri si fisiere temporare
+*.log
+logs/
+tmp/
+*.tmp
+
+# Video / imagini generate local
+*.mp4
+*.avi
+*.mov
+output/
+
+# Secrete
+.env
+*.key
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
